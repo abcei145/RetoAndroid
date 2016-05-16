@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.monica.retoandroid.OperaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/textViewtyle.Title"
+            android:text="@string/operaciones" />
+        <TextView
+            style="@style/textViewtyle.Content"
+            android:id="@+id/operaciones"
+            android:text="hola"/>
+    </LinearLayout>
+</FrameLayout>
